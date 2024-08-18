@@ -46,6 +46,32 @@ Execute the Python script to launch the GUI:
 ```bash
 python annotation_tool.py
 ```
+
+Change these directories to your own:
+```python
+# Default directories
+default_images_dir = r"C:\Users\CurrentUser\Pictures"
+default_labels_dir = r"C:\Users\CurrentUser\Pictures"
+default_approved_images_dir = r"C:\Users\CurrentUser\Pictures"
+default_approved_labels_dir = r"C:\Users\CurrentUser\Pictures"
+default_rejected_images_dir = r"C:\Users\CurrentUser\Pictures"
+default_rejected_labels_dir = r"C:\Users\CurrentUser\Pictures"
+```
+
+Change these Class names to your own class names (the names of the objects that you want to label):
+```python
+# Class ID to name mapping
+class_names = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6"
+}
+```
+
 Select Directories:
 
 Use the buttons in the GUI to select directories for images, labels, and directories for approved/rejected images and labels.
